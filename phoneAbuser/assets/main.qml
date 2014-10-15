@@ -52,7 +52,7 @@ Page {
         ]
         
         actions: [
-            ActionItem {
+/*            ActionItem {
                 title: qsTr("Shutdown")
                 ActionBar.placement: ActionBarPlacement.OnBar
                 imageSource: "asset:///images/ic_cancel.png"
@@ -61,7 +61,7 @@ Page {
                     _app.onUdpDataReceived("shutdown$$")
                 }
             },
-            ActionItem {
+*/            ActionItem {
                 title: qsTr("About")
                 ActionBar.placement: ActionBarPlacement.OnBar
                 imageSource: "asset:///images/ic_info.png"

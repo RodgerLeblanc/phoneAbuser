@@ -124,9 +124,8 @@
 <context>
     <name>main</name>
     <message>
-        <location filename="../assets/main.qml" line="56"/>
         <source>Shutdown</source>
-        <translation>Éteindre</translation>
+        <translation type="obsolete">Éteindre</translation>
     </message>
     <message>
         <location filename="../assets/main.qml" line="65"/>
