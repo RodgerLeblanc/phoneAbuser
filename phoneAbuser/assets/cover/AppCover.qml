@@ -18,6 +18,16 @@ MultiCover {
     id: multiCover
     property string timeActive: _app.timeActive
     property int activeFrameFontSize: _app.activeFrameFontSize
+    property string theme2: multiCover.themeStyleToString(Application.themeSupport.theme.colorTheme.style)
+    property string theme: Application.themeSupport.theme.colorTheme.style == VisualStyle.Bright ? "Bright" : "Dark"
+
+    function themeStyleToString(style){
+        switch(style) {
+            case VisualStyle.Bright:    return "Bright"
+            case VisualStyle.Dark:      return "Dark"
+        }
+        return "UNKNOWN"
+    }
     
     SceneCover {
         id: bigCover
@@ -26,11 +36,13 @@ MultiCover {
             layout: DockLayout {}
             horizontalAlignment: HorizontalAlignment.Fill
             verticalAlignment: VerticalAlignment.Fill
+            background: theme == "Bright" ? Color.White : Color.Black
             Container {
                 horizontalAlignment: HorizontalAlignment.Center
                 verticalAlignment: VerticalAlignment.Center
                 Label {
                     text: timeActive
+                    textStyle.color: theme == "Bright" ? Color.Black : Color.White
                     textStyle.fontWeight: FontWeight.Bold
                     horizontalAlignment: HorizontalAlignment.Center
                     multiline: true
@@ -49,11 +61,13 @@ MultiCover {
             layout: DockLayout {}
             horizontalAlignment: HorizontalAlignment.Fill
             verticalAlignment: VerticalAlignment.Fill
+            background: theme == "Bright" ? Color.White : Color.Black
             Container {
                 horizontalAlignment: HorizontalAlignment.Center
                 verticalAlignment: VerticalAlignment.Center
                 Label {
                     text: timeActive
+                    textStyle.color: theme == "Bright" ? Color.Black : Color.White
                     textStyle.fontWeight: FontWeight.Bold
                     horizontalAlignment: HorizontalAlignment.Center
                     multiline: true
