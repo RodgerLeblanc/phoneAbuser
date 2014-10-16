@@ -13,6 +13,16 @@
         <source>Ok</source>
         <translation>Ok</translation>
     </message>
+    <message>
+        <location filename="../assets/AboutSheet.qml" line="26"/>
+        <source>This app tracks your phone addiction... daily</source>
+        <translation>Cette app enregistre votre dépendance à votre téléphone... jour après jour</translation>
+    </message>
+    <message>
+        <location filename="../assets/AboutSheet.qml" line="37"/>
+        <source>Donate</source>
+        <translation></translation>
+    </message>
 </context>
 <context>
     <name>ActiveFrameFontSizeContainer</name>
@@ -128,9 +138,14 @@
         <translation type="obsolete">Éteindre</translation>
     </message>
     <message>
-        <location filename="../assets/main.qml" line="65"/>
+        <location filename="../assets/main.qml" line="56"/>
         <source>About</source>
         <translation>À Propos</translation>
+    </message>
+    <message>
+        <location filename="../assets/main.qml" line="64"/>
+        <source>More apps</source>
+        <translation></translation>
     </message>
 </context>
 </TS>

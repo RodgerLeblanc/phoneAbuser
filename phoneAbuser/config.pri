@@ -49,6 +49,7 @@ config_pri_assets {
         $$quote($$BASEDIR/assets/images/bb_passport_96_96.png) \
         $$quote($$BASEDIR/assets/images/ic_cancel.png) \
         $$quote($$BASEDIR/assets/images/ic_info.png) \
+        $$quote($$BASEDIR/assets/images/ic_share.png) \
         $$quote($$BASEDIR/assets/main.qml)
 }
 

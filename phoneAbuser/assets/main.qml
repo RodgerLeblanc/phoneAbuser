@@ -52,21 +52,20 @@ Page {
         ]
         
         actions: [
-/*            ActionItem {
-                title: qsTr("Shutdown")
-                ActionBar.placement: ActionBarPlacement.OnBar
-                imageSource: "asset:///images/ic_cancel.png"
-                onTriggered: {
-                    _udp.sendMessage("shutdown$$")
-                    _app.onUdpDataReceived("shutdown$$")
-                }
-            },
-*/            ActionItem {
+            ActionItem {
                 title: qsTr("About")
                 ActionBar.placement: ActionBarPlacement.OnBar
                 imageSource: "asset:///images/ic_info.png"
                 onTriggered: {
                     aboutSheet.open()
+                }
+            },
+            ActionItem {
+                title: qsTr("More apps")
+                ActionBar.placement: ActionBarPlacement.OnBar
+                imageSource: "asset:///images/ic_share.png"
+                onTriggered: {
+                    invoke.trigger("bb.action.OPEN");
                 }
             }
         ]      
@@ -81,6 +80,13 @@ Page {
         },
         ComponentDefinition {
             id: menu
+        },
+        Invocation {
+            id: invoke
+            query {
+                invokeTargetId: "sys.appworld"
+                uri: "appworld://vendor/70290"
+            }
         }
     ]
 }

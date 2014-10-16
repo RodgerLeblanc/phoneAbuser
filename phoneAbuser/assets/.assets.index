@@ -1,5 +1,5 @@
 1
-14
+15
 AboutSheet.qml
 ActiveFrameFontSizeContainer.qml
 cover/AppCover.qml
@@ -10,6 +10,7 @@ images/bb_passport_90_90.png
 images/bb_passport_96_96.png
 images/ic_cancel.png
 images/ic_info.png
+images/ic_share.png
 main.qml
 MainAppFontSizeContainer.qml
 SettingsSheet.qml

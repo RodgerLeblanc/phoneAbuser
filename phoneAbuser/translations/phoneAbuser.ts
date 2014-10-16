@@ -11,6 +11,14 @@
         <source>Ok</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>This app tracks your phone addiction... daily</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Donate</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ActiveFrameFontSizeContainer</name>
@@ -104,6 +112,10 @@
     <name>main</name>
     <message>
         <source>About</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>More apps</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
