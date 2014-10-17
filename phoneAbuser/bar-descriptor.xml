@@ -41,7 +41,7 @@
 
     <!-- Fourth digit segment of the package version. First three segments are
         taken from the <versionNumber> element. Must be an integer from 0 to 2^16-1 -->
-    <buildId>2</buildId>
+    <buildId>3</buildId>
 
     <!-- A string value (such as "v1", "2.5", or "Alpha 1") that represents
         the version of the application, as it should be shown to users. Optional. -->
@@ -58,11 +58,12 @@
     <!-- Name of author which is used for signing. Must match the developer
         name of your development certificate. -->
     <icon>
-       <image>bb_passport_144_144.png</image>
-       <image>bb_passport_110_110.png</image>
-       <image>bb_passport_96_96.png</image>
-       <image>bb_passport_90_90.png</image>
-       <image>bb_passport_86_86.png</image>
+       <image>no_phone_zone_86_86.png</image>
+       <image>no_phone_zone_90_90.png</image>
+       <image>no_phone_zone_96_96.png</image>
+       <image>no_phone_zone_110_110.png</image>
+       <image>no_phone_zone_114_114.png</image>
+       <image>no_phone_zone_144_144.png</image>
     </icon>
     <author>Roger Leblanc</author>
     <configuration name="Device-Debug">
@@ -141,7 +142,7 @@
         <invoke-target-type>application</invoke-target-type>
         <invoke-target-name>phoneAbuser</invoke-target-name>
         <icon>
-            <image>bb_passport_144_144.png</image>
+            <image>no_phone_zone_144_144.png</image>
         </icon>
         <entry-point-id>phoneAbuser</entry-point-id>
     </invoke-target>
@@ -163,11 +164,12 @@
     <asset path="translations" dest="qm">
         <include name="*.qm" />
     </asset>
-    <asset path="assets/images/bb_passport_144_144.png">bb_passport_144_144.png</asset>
-    <asset path="assets/images/bb_passport_110_110.png">bb_passport_110_110.png</asset>
-    <asset path="assets/images/bb_passport_96_96.png">bb_passport_96_96.png</asset>
-    <asset path="assets/images/bb_passport_90_90.png">bb_passport_90_90.png</asset>
-    <asset path="assets/images/bb_passport_86_86.png">bb_passport_86_86.png</asset>
+    <asset path="D:/BlackBerry/images/phoneAbuser/no_phone_zone_86_86.png">no_phone_zone_86_86.png</asset>
+    <asset path="D:/BlackBerry/images/phoneAbuser/no_phone_zone_90_90.png">no_phone_zone_90_90.png</asset>
+    <asset path="D:/BlackBerry/images/phoneAbuser/no_phone_zone_96_96.png">no_phone_zone_96_96.png</asset>
+    <asset path="D:/BlackBerry/images/phoneAbuser/no_phone_zone_110_110.png">no_phone_zone_110_110.png</asset>
+    <asset path="D:/BlackBerry/images/phoneAbuser/no_phone_zone_114_114.png">no_phone_zone_114_114.png</asset>
+    <asset path="D:/BlackBerry/images/phoneAbuser/no_phone_zone_144_144.png">no_phone_zone_144_144.png</asset>
 
     <!-- Request permission to post notification. -->
     <permission>post_notification</permission>

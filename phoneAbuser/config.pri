@@ -42,14 +42,15 @@ config_pri_assets {
         $$quote($$BASEDIR/assets/SettingsSheet.qml) \
         $$quote($$BASEDIR/assets/ThemeContainer.qml) \
         $$quote($$BASEDIR/assets/cover/AppCover.qml) \
-        $$quote($$BASEDIR/assets/images/bb_passport_110_110.png) \
-        $$quote($$BASEDIR/assets/images/bb_passport_144_144.png) \
-        $$quote($$BASEDIR/assets/images/bb_passport_86_86.png) \
-        $$quote($$BASEDIR/assets/images/bb_passport_90_90.png) \
-        $$quote($$BASEDIR/assets/images/bb_passport_96_96.png) \
         $$quote($$BASEDIR/assets/images/ic_cancel.png) \
         $$quote($$BASEDIR/assets/images/ic_info.png) \
         $$quote($$BASEDIR/assets/images/ic_share.png) \
+        $$quote($$BASEDIR/assets/images/no_phone_zone_110_110.png) \
+        $$quote($$BASEDIR/assets/images/no_phone_zone_114_114.png) \
+        $$quote($$BASEDIR/assets/images/no_phone_zone_144_144.png) \
+        $$quote($$BASEDIR/assets/images/no_phone_zone_86_86.png) \
+        $$quote($$BASEDIR/assets/images/no_phone_zone_90_90.png) \
+        $$quote($$BASEDIR/assets/images/no_phone_zone_96_96.png) \
         $$quote($$BASEDIR/assets/main.qml)
 }
 

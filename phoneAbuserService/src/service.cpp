@@ -195,9 +195,9 @@ void Service::onTimeout() {
 void Service::sendToUpFront(QString & message) {
     // Send to UpFront, fill backgroundZ image (url), image (url), title, message, color (bb::cascades::Color)
     bb::ApplicationInfo appInfo;
-    QString backgroundZ = "http://s26.postimg.org/6zk9kwiy1/passport_334_396.png";
-    QString backgroundQ = "http://s26.postimg.org/veshlyhux/passport_310_211.png";
-    QString icon = "http://s26.postimg.org/rxqfizisl/passport_38_38.png";
+    QString backgroundZ = "";
+    QString backgroundQ = "";
+    QString icon = "http://s26.postimg.org/vnzpmqqcl/no_phone_zone_38_38.png";
     QString seconds = ""; // leave blank
     QString sendToT2w = ""; // leave blank
     QString textColor = "White"; // Choose any color available in QML
