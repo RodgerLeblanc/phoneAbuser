@@ -65,6 +65,12 @@
        <image>no_phone_zone_114_114.png</image>
        <image>no_phone_zone_144_144.png</image>
     </icon>
+    <splashScreens>
+       <image>splash_720_1280.png</image>
+       <image>splash_720_720.png</image>
+       <image>splash_768_1280.png</image>
+       <image>splash_1440_1440.png</image>
+    </splashScreens>
     <author>Roger Leblanc</author>
     <configuration name="Device-Debug">
         <platformArchitecture>armle-v7</platformArchitecture>
@@ -170,6 +176,10 @@
     <asset path="D:/BlackBerry/images/phoneAbuser/no_phone_zone_110_110.png">no_phone_zone_110_110.png</asset>
     <asset path="D:/BlackBerry/images/phoneAbuser/no_phone_zone_114_114.png">no_phone_zone_114_114.png</asset>
     <asset path="D:/BlackBerry/images/phoneAbuser/no_phone_zone_144_144.png">no_phone_zone_144_144.png</asset>
+    <asset path="assets/images/splash_720_1280.png">splash_720_1280.png</asset>
+    <asset path="assets/images/splash_720_720.png">splash_720_720.png</asset>
+    <asset path="assets/images/splash_768_1280.png">splash_768_1280.png</asset>
+    <asset path="assets/images/splash_1440_1440.png">splash_1440_1440.png</asset>
 
     <!-- Request permission to post notification. -->
     <permission>post_notification</permission>

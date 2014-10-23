@@ -1,5 +1,5 @@
 1
-16
+20
 AboutSheet.qml
 ActiveFrameFontSizeContainer.qml
 cover/AppCover.qml
@@ -12,6 +12,10 @@ images/no_phone_zone_144_144.png
 images/no_phone_zone_86_86.png
 images/no_phone_zone_90_90.png
 images/no_phone_zone_96_96.png
+images/splash_1440_1440.png
+images/splash_720_1280.png
+images/splash_720_720.png
+images/splash_768_1280.png
 main.qml
 MainAppFontSizeContainer.qml
 SettingsSheet.qml

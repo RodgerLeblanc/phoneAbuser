@@ -51,6 +51,10 @@ config_pri_assets {
         $$quote($$BASEDIR/assets/images/no_phone_zone_86_86.png) \
         $$quote($$BASEDIR/assets/images/no_phone_zone_90_90.png) \
         $$quote($$BASEDIR/assets/images/no_phone_zone_96_96.png) \
+        $$quote($$BASEDIR/assets/images/splash_1440_1440.png) \
+        $$quote($$BASEDIR/assets/images/splash_720_1280.png) \
+        $$quote($$BASEDIR/assets/images/splash_720_720.png) \
+        $$quote($$BASEDIR/assets/images/splash_768_1280.png) \
         $$quote($$BASEDIR/assets/main.qml)
 }
 
